@@ -5,3 +5,10 @@ h1 {
   text-align: center;
   color: antiquewhite;
 }
+a {
+  font-weight: 700;
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+}
