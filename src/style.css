@@ -6,7 +6,7 @@ body {
 
 a {
   text-decoration: none;
-  color: whitesmoke;
+  color: rgb(0, 0, 0, 0.9);
 }
 
 .container {
@@ -19,13 +19,13 @@ header {
 }
 
 h1 {
-  color: rgb(213, 236, 242);
+  color: rgb(247, 245, 245, 0.7);
   font-size: 38px;
   text-align: center;
 }
 form {
   padding: 30px;
-  background-color: rgb(169, 220, 228, 0.4);
+  background-color: rgb(247, 245, 245, 0.3);
   border-radius: 10px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
   display: flex;
@@ -33,19 +33,22 @@ form {
 }
 
 .prompt {
-  background-color: rgb(216, 221, 222, 0.5);
+  background-color: rgb(66, 119, 133, 0.1);
   border-radius: 15px;
-  border: 1px solid cadetblue;
+  border: 1px solid rgb(66, 119, 133);
   font-family: "Architects Daughter", cursive;
   font-size: 18px;
   padding: 15px 18px;
   width: 80%;
 }
+input::placeholder {
+  color: rgb(49, 59, 51);
+}
 .submit-button {
-  background-color: cadetblue;
+  background-color: rgb(66, 119, 133);
   border-radius: 15px;
   border: none;
-  color: rgb(216, 221, 222);
+  color: rgb(247, 245, 245);
   font-family: "Architects Daughter", cursive;
   font-size: 18px;
   margin-left: 10px;
@@ -53,17 +56,17 @@ form {
   width: 100px;
 }
 .destination {
-  background-color: rgb(137, 189, 191, 0.4);
-  color: rgb(64, 63, 63);
+  background-color: rgb(247, 245, 245, 0.3);
+  color: rgb(49, 59, 51);
   border-radius: 10px;
-  border-left: 3px solid cadetblue;
+  border-left: 3px solid rgb(66, 119, 133);
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03);
   font-size: 18px;
   line-height: 2;
   padding: 20px;
 }
 footer {
-  color: rgb(27, 27, 27);
+  color: rgb(247, 245, 245, 0.9);
   text-align: center;
   font-size: 14px;
   margin-top: 20px;
