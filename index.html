@@ -3,41 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/style.css" />
     <title>Wanderlust</title>
   </head>
   <body>
-    <header>
-      <h1>AI Dream Destination Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Three must-haves on your trip"
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Brazil
-        <br />
-        perfect for kitesurfing, relatively economic and sunny weather
-      </div>
-    </main>
-    <footer>
-      This AI project was coded by
-      <a href="https://github.com/leylamaria" target="_blank">Leyla Maria</a>,
-      is open-sourced on
-      <a
-        href="https://github.com/leylamaria/AI-DreamDestinations"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted on
-      <a href="https://ai-wanderlust.netlify.app" target="_blank">Netlify</a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Dream Destination Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Three essentials on your trip"
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="destination">
+          Brazil
+          <br />
+          perfect for kitesurfing, relatively economic and sunny weather
+        </div>
+      </main>
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/leylamaria" target="_blank">Leyla Maria</a>,
+        is open-sourced on
+        <a
+          href="https://github.com/leylamaria/AI-DreamDestinations"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted on
+        <a href="https://ai-wanderlust.netlify.app" target="_blank">Netlify</a>
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
