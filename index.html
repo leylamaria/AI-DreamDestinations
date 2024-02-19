@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Wanderlust</title>
   </head>
@@ -18,7 +19,7 @@
         <h1>AI Dream Destination Generator</h1>
       </header>
       <main>
-        <form>
+        <form id="destination-generator-form">
           <input
             type="text"
             placeholder="Three essentials on your trip"
@@ -28,12 +29,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="destination">
-          Brazil
-          <br />
-          perfect for kitesurfing, relatively economic and sunny weather, safe,
-          good food, warm waters and lots of wind
-        </div>
+        <div class="destination" id="destination"></div>
       </main>
       <footer>
         This AI project was coded by
