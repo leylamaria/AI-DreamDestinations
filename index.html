@@ -20,17 +20,20 @@
         <h1>AI Travel Destination Generator</h1>
       </header>
       <main>
-        <form id="destination-generator-form">
-          <input
-            type="text"
-            placeholder="Three essentials on your trip"
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form class="destination-form" id="destination-generator-form">
+            <input
+              type="text"
+              placeholder="Must-haves on your trip"
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" value="🚀 GO" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Activities, Weather, Culture, Budget ..</div>
+        </div>
         <div class="destination" id="destination"></div>
       </main>
       <footer>
