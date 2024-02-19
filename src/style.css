@@ -6,7 +6,7 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(247, 245, 245);
+  color: rgb(128, 0, 128);
 }
 
 .container {
@@ -46,7 +46,7 @@ h1:hover {
   font-family: "Architects Daughter", cursive;
   font-size: 18px;
   flex: 1 0 10rem;
-  padding: 15px 20px;
+  padding: 15px 40px;
   width: 80%;
 }
 input::placeholder {
@@ -60,7 +60,6 @@ input::placeholder {
   flex: 1 0 2rem;
   font-family: "Architects Daughter", cursive;
   font-size: 18px;
-
   margin-left: 10px;
   padding: 15px 20px;
   width: 100px;
@@ -69,7 +68,7 @@ input::placeholder {
   cursor: pointer;
 }
 .hint {
-  color: rgb(49, 59, 51, 0.8);
+  color: rgb(49, 59, 51, 0.9);
   line-height: 1.5;
   margin-top: 10px;
 }
@@ -79,9 +78,12 @@ input::placeholder {
   border-radius: 10px;
   border-left: 3px solid rgb(66, 119, 133);
   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.3);
-  font-size: 18px;
+  font-size: 19px;
   line-height: 2;
   padding: 20px;
+}
+.hidden {
+  display: none;
 }
 .destination strong {
   color: rgb(128, 0, 128);
@@ -90,11 +92,25 @@ input::placeholder {
 footer {
   color: rgb(0, 0, 0, 0.9);
   text-align: center;
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 20px;
 }
 .logo {
   display: block;
   margin: 10px auto;
   max-width: 80px;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
