@@ -6,11 +6,11 @@ body {
 
 a {
   text-decoration: none;
-  color: rgb(128, 0, 128);
+  color: rgb(123, 24, 24, 0.8);
 }
 
 .container {
-  margin: 60px auto 180px auto;
+  margin: 60px auto 280px auto;
   max-width: 500px;
 }
 
@@ -22,6 +22,7 @@ h1 {
   color: rgb(49, 59, 51, 0.8);
   font-size: 34px;
   text-align: center;
+  transition: all 200ms ease-in-out;
 }
 h1:hover {
   transform: scale(1.3);
@@ -36,16 +37,16 @@ h1:hover {
 .destination-form {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5 rem;
+  gap: 10px;
 }
 
 .instructions {
   background-color: rgb(247, 245, 245, 0.5);
   border-radius: 35px;
   border: 1px solid rgb(66, 119, 133);
+  flex: 1 0 13rem;
   font-family: "Architects Daughter", cursive;
   font-size: 18px;
-  flex: 1 0 10rem;
   padding: 15px 40px;
   width: 80%;
 }
@@ -57,15 +58,16 @@ input::placeholder {
   border-radius: 35px;
   border: none;
   color: rgb(247, 245, 245);
-  flex: 1 0 2rem;
   font-family: "Architects Daughter", cursive;
   font-size: 18px;
   margin-left: 10px;
   padding: 15px 20px;
+  transition: all 200ms ease-in-out;
   width: 100px;
 }
 .submit-button:hover {
   cursor: pointer;
+  opacity: 0.8;
 }
 .hint {
   color: rgb(49, 59, 51, 0.9);
@@ -86,7 +88,7 @@ input::placeholder {
   display: none;
 }
 .destination strong {
-  color: rgb(128, 0, 128);
+  color: rgb(123, 24, 24, 0.8);
   font-size: 26px;
 }
 footer {
@@ -113,4 +115,7 @@ footer {
   to {
     visibility: hidden;
   }
+}
+.generating {
+  color: rgb(123, 24, 24, 0.8);
 }
