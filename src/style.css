@@ -23,7 +23,7 @@ h1 {
   font-size: 34px;
   text-align: center;
   transition: all 200ms ease-in-out;
-  -webkit-text-stroke: 0.1px rgb(0, 0, 0, 0.15);
+  -webkit-text-stroke: 0.1px rgb(0, 0, 0, 0.5);
 }
 
 h1:hover {
